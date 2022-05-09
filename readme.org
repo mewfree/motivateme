@@ -2,6 +2,15 @@
 
 Silly project to display a random motivational quote in your terminal.
 
-=dune build= to build
+* Compile
+#+begin_src bash :results none
+ocamlopt -o _build/motivateme main.ml
+#+end_src
 
-=dune exec motivateme= to run
+* Run
+#+begin_src bash :results verbatim
+_build/motivateme
+#+end_src
+
+#+RESULTS:
+: Create bite-sized tasks for your project
