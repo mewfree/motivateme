@@ -1,0 +1,7 @@
+#+title: Motivate Me
+
+Silly project to display a random motivational quote in your terminal.
+
+=dune build= to build
+
+=dune exec motivateme= to run
