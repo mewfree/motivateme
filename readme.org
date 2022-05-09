@@ -14,3 +14,8 @@ _build/motivateme
 
 #+RESULTS:
 : Create bite-sized tasks for your project
+
+* Place in path
+#+begin_src bash :results none
+sudo cp _build/motivateme /usr/local/bin/
+#+end_src
